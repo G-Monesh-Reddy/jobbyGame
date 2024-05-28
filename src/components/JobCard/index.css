@@ -1,0 +1,71 @@
+.icon {
+  height: 15vh;
+  width: 10vw;
+  margin-right: 5px;
+}
+.icon-bg {
+  display: flex;
+  align-items: center;
+}
+.icon-star {
+  color: #fbbf24;
+}
+.job-p {
+  margin-right: 30px;
+  color: #ffffff;
+}
+.loc-type-pack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.loc-type {
+  display: flex;
+}
+.job-bg {
+  height: 200vh;
+  width: 60%;
+}
+.color {
+  color: #ffffff;
+}
+.li {
+  list-style-type: none;
+  background-color: #272727;
+
+  width: 80%;
+  margin: 20px;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  height: fit-content;
+}
+hr {
+  color: #000000;
+}
+.desr-p {
+  color: #ffffff;
+  font-size: 13px;
+}
+@media screen and (max-width: 768px) {
+  .li {
+    list-style-type: none;
+    background-color: #272727;
+    width: 90%;
+    margin: 20px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+  }
+  .icon {
+    height: 10vh;
+    width: 20vw;
+    margin-right: 5px;
+  }
+  .card-title{
+    font-size: 20px;
+    color: #ffffff;
+  }
+}

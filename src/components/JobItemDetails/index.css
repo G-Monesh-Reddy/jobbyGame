@@ -1,0 +1,101 @@
+.job-item-detail-bg {
+  background-color: #000000;
+  height: fit-content;
+  padding: 10px;
+}
+.job-item-detail-inner-bg {
+  background-color: #272727;
+  height: fit-content;
+  margin: 30px;
+  border-radius: 20px;
+  padding: 25px;
+}
+.skills-li {
+  display: flex;
+  margin: 10px;
+  margin-left: 10px;
+}
+.skills-image {
+  height: 10vh;
+  width: 5vw;
+  margin-right: 20px;
+}
+.skills-ul {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.life-at-com {
+  display: flex;
+}
+.similar-jobs-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mobile-view {
+  display: none;
+}
+.similar-job-li {
+  list-style-type: none;
+  background-color: #272727;
+  width: 30vw;
+  margin: 20px;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  height: fit-content;
+}
+@media screen and (max-width: 768px) {
+  .job-item-detail-bg {
+    background-color: #000000;
+    height: fit-content;
+  }
+  .job-item-detail-inner-bg {
+    background-color: #272727;
+
+    height: fit-content;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .skills-li {
+    display: flex;
+    align-items: center;
+  }
+  .skills-image {
+    height: 5vh;
+    width: 10vw;
+  }
+  .skills-ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    flex-wrap: wrap;
+  }
+  .life-at-com {
+    display: flex;
+    flex-direction: column;
+  }
+  .similar-jobs-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .similar-job-li {
+    list-style: none;
+    background-color: #272727;
+    width: 100%;
+    margin-right: 70px;
+    border-radius: 10px;
+    height: fit-content;
+  }
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: flex;
+  }
+  .similar-title{
+    font-size: 20px;
+  }
+}
